@@ -1,0 +1,13 @@
+.global {
+  /* Global Styles */
+}
+
+body {
+  /* Body styles */
+}
+
+/* Dark Theme Configuration */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
