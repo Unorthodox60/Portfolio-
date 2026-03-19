@@ -1,13 +1,22 @@
-.global {
-  /* Global Styles */
+:root {
+  --background-color: #121212;
+  --primary-color: #BB86FC;
+  --secondary-color: #03DAC6;
+  --text-color: #EAEAEA;
 }
 
 body {
-  /* Body styles */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
-/* Dark Theme Configuration */
-body.dark {
-  background-color: #121212;
-  color: #ffffff;
+// Additional global styles
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
